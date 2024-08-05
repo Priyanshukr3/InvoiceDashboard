@@ -145,3 +145,5 @@ const revenue = [
 ];
 
 export { users, customers, invoices, revenue };
+
+//this is the seed data for the database
