@@ -6,6 +6,11 @@ import { lusitana } from '@/app/ui/fonts';
 
 import Image from 'next/image';
 
+import { Metadata } from 'next';
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
+
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
